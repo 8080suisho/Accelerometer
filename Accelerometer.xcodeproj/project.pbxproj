@@ -13,6 +13,10 @@
 		2C9BFEEE2509741300EC18BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9BFEEC2509741300EC18BD /* Main.storyboard */; };
 		2C9BFEF02509741400EC18BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9BFEEF2509741400EC18BD /* Assets.xcassets */; };
 		2C9BFEF32509741400EC18BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9BFEF12509741400EC18BD /* LaunchScreen.storyboard */; };
+		2C9BFEFD250974A900EC18BD /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9BFEFB250974A800EC18BD /* awa.png */; };
+		2C9BFEFE250974A900EC18BD /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9BFEFC250974A800EC18BD /* suiheiki.png */; };
+		2C9BFF002509763A00EC18BD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BFEFF2509763A00EC18BD /* GameViewController.swift */; };
+		2C9BFF022509764E00EC18BD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BFF012509764E00EC18BD /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2C9BFEEF2509741400EC18BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C9BFEF22509741400EC18BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C9BFEF42509741400EC18BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9BFEFB250974A800EC18BD /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		2C9BFEFC250974A800EC18BD /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		2C9BFEFF2509763A00EC18BD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2C9BFF012509764E00EC18BD /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		2C9BFEE52509741200EC18BD /* Accelerometer */ = {
 			isa = PBXGroup;
 			children = (
+				2C9BFEFA250974A800EC18BD /* 13_Resource */,
 				2C9BFEE62509741300EC18BD /* AppDelegate.swift */,
 				2C9BFEE82509741300EC18BD /* SceneDelegate.swift */,
 				2C9BFEEA2509741300EC18BD /* ViewController.swift */,
+				2C9BFEFF2509763A00EC18BD /* GameViewController.swift */,
+				2C9BFF012509764E00EC18BD /* ResultViewController.swift */,
 				2C9BFEEC2509741300EC18BD /* Main.storyboard */,
 				2C9BFEEF2509741400EC18BD /* Assets.xcassets */,
 				2C9BFEF12509741400EC18BD /* LaunchScreen.storyboard */,
 				2C9BFEF42509741400EC18BD /* Info.plist */,
 			);
 			path = Accelerometer;
+			sourceTree = "<group>";
+		};
+		2C9BFEFA250974A800EC18BD /* 13_Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2C9BFEFB250974A800EC18BD /* awa.png */,
+				2C9BFEFC250974A800EC18BD /* suiheiki.png */,
+			);
+			path = 13_Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +147,9 @@
 			files = (
 				2C9BFEF32509741400EC18BD /* LaunchScreen.storyboard in Resources */,
 				2C9BFEF02509741400EC18BD /* Assets.xcassets in Resources */,
+				2C9BFEFE250974A900EC18BD /* suiheiki.png in Resources */,
 				2C9BFEEE2509741300EC18BD /* Main.storyboard in Resources */,
+				2C9BFEFD250974A900EC18BD /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9BFF022509764E00EC18BD /* ResultViewController.swift in Sources */,
+				2C9BFF002509763A00EC18BD /* GameViewController.swift in Sources */,
 				2C9BFEEB2509741300EC18BD /* ViewController.swift in Sources */,
 				2C9BFEE72509741300EC18BD /* AppDelegate.swift in Sources */,
 				2C9BFEE92509741300EC18BD /* SceneDelegate.swift in Sources */,
